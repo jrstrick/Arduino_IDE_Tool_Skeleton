@@ -13,9 +13,12 @@ higher, unless they change stuff (again.))
 Make sure you can build Arduino. If you can't, you probably won't be
 able to build tools for it either.
 
-Dive into the build/shared/tools directory, and drop the entire
-Tool\_Skeleton folder from my git repository in there. It won't build
-without all the Arduino stuff upstream.
+
+Dive into the build/shared/tools directory, and  and clone this archive
+into a directory named Tool_Skeleton there. If you downloaded the zip archive,
+rename the directory Tool_Skeleton-master to Tool_Skeleton and put it in
+build/shared/tools. Tool_Skeleton based tools won't build without all the 
+Arduino stuff upstream.
 
 When correctly installed, the directory tree should look like this:
 
