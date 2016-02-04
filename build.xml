@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<project name="Tool_Skeleton" default="build">
+
+	<target name="clean" description="Clean the build directories">
+		<delete dir="bin" />
+		<delete file="tool/Tool_Skeleton.jar" />
+	</target>
+
+	<target name="compile" description="Compile sources">
+		<mkdir dir="bin" />
+		<javac source="1.8" target="1.8" srcdir="src" destdir="bin"
+			encoding="UTF-8" includeAntRuntime="false" classpath="../../../../app/bin"
+			nowarn="true">
+		</javac>
+	</target>
+
+	<target name="build" depends="compile" description="Build Tool Skeleton">
+		<mkdir dir="tool" />
+		<jar basedir="bin" destfile="tool/Tool_Skeleton.jar" />
+	</target>
+</project>
