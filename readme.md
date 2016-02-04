@@ -16,7 +16,7 @@ able to build tools for it either.
 
 Dive into the build/shared/tools directory, and  and clone this archive
 into a directory named Tool_Skeleton there. If you downloaded the zip archive,
-rename the directory Tool_Skeleton-master to Tool_Skeleton and put it in
+rename the directory Arduino_IDE_Tool_Skeleton-master to Tool_Skeleton and put it in
 build/shared/tools. Tool_Skeleton based tools won't build without all the 
 Arduino stuff upstream.
 
