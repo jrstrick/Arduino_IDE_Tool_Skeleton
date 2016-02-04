@@ -119,10 +119,6 @@ and have it work? Probably, but I haven't tried it.
 ***
 ##Caviats
 ***
-I'm pretty sure make.sh doesn't work. I will probably remove it
-down the road.
-
 build.xml doesn't contain much in the way of useful paths into the guts
 of Arduino. I'll fix that soon by backporting from the project I
 actually built Tool\_Skeleton to understand.
-
